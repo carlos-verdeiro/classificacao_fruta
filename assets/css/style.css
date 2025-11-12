@@ -1,5 +1,14 @@
+body{
+    --cor-fundo: rgba(0, 255, 13, 0.356);
+    background-image: linear-gradient(180deg, var(--cor-fundo) 0%,var(--cor-fundo) 15%, rgb(255, 255, 255) 60%);
+}
+
+.central{
+    padding-top: 80px;
+    margin-bottom: 120px;
+}
+
 .fundoTema{
-    background-image: linear-gradient(180deg, rgba(255, 213, 0, 0.356) 0%,rgba(255, 213, 0, 0.356) 80%, rgb(255, 255, 255) 100%);
     height: 60vh;
 }
 
@@ -14,6 +23,16 @@
 }
 
 .imagem div{
-    width: 100%;
+    min-width: 100%;
     overflow-x: auto;
+
+
+    a{
+        text-align: center;
+        min-width: 100%;
+
+        img{
+            min-width: 100%;
+        }
+    }
 }

@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Classificação de frutas</title>
     <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+    <script src="assets/js/script.js"></script>
 </head>
+
 <body>
-    <section class="w-100 fundoTema">
-        <nav class="navbar" id="nav">
-            <div class="container-fluid">   
-                <a class="navbar-brand" href="index.html">
-                <img src="assets/img/icon.ico" alt="Logo" width="30" class="d-inline-block align-text-top">
-                Classificação de frutas 
-                </a>
-            </div>
-        </nav>
-        <div class="w-100 text-center mt-5">
-            <h1>Vamos analizar e descobrir a fruta</h1>
-            <h5>Pressione para começar</h5>
-            <button class="btn btn-success px-5 py-2 fs-2">Iniciar</button>
+    <nav class="navbar" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/icon.ico" alt="Logo" width="30" class="d-inline-block align-text-top"> Classificação de frutas
+            </a>
         </div>
-    </section>
+    </nav>
+    <div class="w-50 text-center mt-5 m-auto" id="central">
+        <h1 id="titulo">Vamos analizar e descobrir a fruta</h1>
+        <h5>Pressione para começar</h5>
+        <button class="btn btn-success px-5 py-2 fs-2 " id="btnIniciar" onclick="ini()" type="button">Iniciar</button>
+    </div>
 
     <section class="d-flex   align-itens-center justify-content-center">
         <div class="frutasPossiveis mt-5 mb-5">
@@ -74,6 +75,6 @@
             </a>
         </div>
     </section>
-    
 </body>
+
 </html>
