@@ -1,0 +1,19 @@
+.fundoTema{
+    background-image: linear-gradient(180deg, rgba(255, 213, 0, 0.356) 0%,rgba(255, 213, 0, 0.356) 80%, rgb(255, 255, 255) 100%);
+    height: 60vh;
+}
+
+.frutasPossiveis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    gap: 2px;
+}
+
+.imagem div{
+    width: 100%;
+    overflow-x: auto;
+}

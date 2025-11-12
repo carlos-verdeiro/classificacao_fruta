@@ -1,0 +1,24 @@
+{
+    "frutas":{
+        "apple":"Maçã",
+        "banana":"Banana",
+        "blueberry":"Mirtilo",
+        "cherry":"Cereja",
+        "coconut":"Coco",
+        "custard apple":"Fruta do Conde",
+        "dragon fruit":"Fruta do Dragão",
+        "grape":"Uva",
+        "guava":"Goiaba",
+        "kiwi":"Kiwi",
+        "lynchee":"Lichia",
+        "mango":"Manga",
+        "orange":"Laranja",
+        "papaya":"Mamão",
+        "pear":"Pêra",
+        "pineapple":"Abacaxi",
+        "plum":"Ameixa",
+        "pomegranate":"Romã",
+        "strawberry":"Morango",
+        "watermelon":"Melancia"
+    }
+}
